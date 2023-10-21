@@ -18,7 +18,7 @@ impl Solution {
             if d < heap.peek().unwrap().0 {
                 heap.push((d, i));
                 heap.pop(); // technically we dont need to pop here, as long as we restrict the
-                            // itertor down the line to only the k first elements, but this would use
+                            // iterator down the line to only the k first elements, but this would use
                             // unecessary memory
             }
         }
