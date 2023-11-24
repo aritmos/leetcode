@@ -14,6 +14,7 @@ pub mod lc_0053; // Maximum Subarray
 pub mod lc_0057; // Insert Interval
 pub mod lc_0067; // Add Binary
 pub mod lc_0070; // Climbing Stairs
+pub mod lc_0084; // Largest Rectangle in Histogram
 pub mod lc_0098; // Validate Binary Search Tree
 pub mod lc_0104; // Maximum Depth of a Binary Tree
 pub mod lc_0110; // Balanced Binary Tree
@@ -38,6 +39,8 @@ pub mod lc_0409; // Longest Palindrome
 pub mod lc_0543; // Diameter of a Binary Tree
 pub mod lc_0704; // Binary Search
 pub mod lc_0733; // Flood Fill
+pub mod lc_0739; // Daily Temperatures
+pub mod lc_0853; // Car Fleet
 pub mod lc_0876; // Middle of a Linked List
 pub mod lc_0973; // K Closest Points to Origin
 pub mod lc_1402; // Reducing Dishes
