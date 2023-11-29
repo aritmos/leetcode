@@ -4,11 +4,13 @@
 pub struct Solution;
 pub mod lc_0001; // Two Sum
 pub mod lc_0003; // Longest Substring Without Repeating Characters
+pub mod lc_0011; // Container With Most Water
 pub mod lc_0015; // <!> 3 Sum
 pub mod lc_0020; // Valid Parentheses
 pub mod lc_0021; // Merge Two Sorted Lists
 pub mod lc_0022; // <!> Generate Parentheses
 pub mod lc_0036; // Valid Sudoku
+pub mod lc_0042; // Trapping Rain Water
 pub mod lc_0049; // Group Anagrams
 pub mod lc_0053; // Maximum Subarray
 pub mod lc_0057; // Insert Interval
@@ -23,6 +25,7 @@ pub mod lc_0125; // Valid Palindrome
 pub mod lc_0128; // Longest Consecutive Sequence
 pub mod lc_0150; // Evaluate Reverse Polish Notation
 pub mod lc_0155; // Min Stack
+pub mod lc_0167; // Two Sum II - Input Array is Sorted
 pub mod lc_0169; // Majority Element
 pub mod lc_0206; // Reverse Linked List
 pub mod lc_0208; // Implement Trie (Prefix Tree)
