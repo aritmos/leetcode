@@ -4,6 +4,7 @@
 pub struct Solution;
 pub mod lc_0001; // Two Sum
 pub mod lc_0003; // Longest Substring Without Repeating Characters
+pub mod lc_0004; // Median of Two Sorted Arrays
 pub mod lc_0011; // Container With Most Water
 pub mod lc_0015; // <!> 3 Sum
 pub mod lc_0020; // Valid Parentheses
@@ -24,6 +25,7 @@ pub mod lc_0121; // Best Time to Buy and Sell Stock
 pub mod lc_0125; // Valid Palindrome
 pub mod lc_0128; // Longest Consecutive Sequence
 pub mod lc_0150; // Evaluate Reverse Polish Notation
+pub mod lc_0153; // Find Minimum in Rotated Sorted Array
 pub mod lc_0155; // Min Stack
 pub mod lc_0167; // Two Sum II - Input Array is Sorted
 pub mod lc_0169; // Majority Element
@@ -44,7 +46,9 @@ pub mod lc_0704; // Binary Search
 pub mod lc_0733; // Flood Fill
 pub mod lc_0739; // Daily Temperatures
 pub mod lc_0853; // Car Fleet
+pub mod lc_0875; // Koko Eating Bananas
 pub mod lc_0876; // Middle of a Linked List
 pub mod lc_0973; // K Closest Points to Origin
+pub mod lc_0981; // Time Based Key-Value Store
 pub mod lc_1402; // Reducing Dishes
 pub mod structs;

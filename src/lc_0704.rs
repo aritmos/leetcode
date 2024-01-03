@@ -2,23 +2,6 @@
 pub struct Solution;
 
 impl Solution {
-    // pub fn search(nums: Vec<i32>, target: i32) -> i32 {
-    //     let mut lo = 0;
-    //     let mut hi = nums.len() - 1;
-    //     while lo <= hi {
-    //         let mid: usize = (hi + lo) / 2;
-    //         if nums[mid] == target {
-    //             return mid as i32;
-    //         }
-    //         if nums[mid] < target || lo == hi || mid == 0 {
-    //             lo = mid + 1;
-    //         } else {
-    //             hi = mid - 1;
-    //         }
-    //     }
-    //     -1
-    // }
-
     // we look in the index range (l..r) <- non inclusive in the right
     pub fn search(nums: Vec<i32>, target: i32) -> i32 {
         let n = nums.len();
