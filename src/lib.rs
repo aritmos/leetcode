@@ -1,7 +1,6 @@
-// run tests via
-// `cargo test -- --nocapture $TEST_NAME`
-
 pub struct Solution;
+pub mod structs;
+
 pub mod lc_0001; // Two Sum
 pub mod lc_0003; // Longest Substring Without Repeating Characters
 pub mod lc_0004; // Median of Two Sorted Arrays
@@ -17,6 +16,7 @@ pub mod lc_0053; // Maximum Subarray
 pub mod lc_0057; // Insert Interval
 pub mod lc_0067; // Add Binary
 pub mod lc_0070; // Climbing Stairs
+pub mod lc_0076; // Minimum Window Substring
 pub mod lc_0084; // Largest Rectangle in Histogram
 pub mod lc_0098; // Validate Binary Search Tree
 pub mod lc_0104; // Maximum Depth of a Binary Tree
@@ -36,12 +36,16 @@ pub mod lc_0226; // <!> Invert Binary Tree
 pub mod lc_0232; // Implement Queue using Stacks
 pub mod lc_0235; // Lowest Common Ancestor of a Binary Search Tree
 pub mod lc_0238; // Product of Array Except Self
+pub mod lc_0239; // Sliding Window Maximum
 pub mod lc_0242; // Valid Anagram
 pub mod lc_0278; // First Bad Version
+pub mod lc_0285; // Inorder Successor in BST
 pub mod lc_0347; // Top K Frequent Elements
 pub mod lc_0383; // Ransom Note
 pub mod lc_0409; // Longest Palindrome
+pub mod lc_0424; // Longest Repeating Character Replacement
 pub mod lc_0543; // Diameter of a Binary Tree
+pub mod lc_0567; // Permutation in String
 pub mod lc_0704; // Binary Search
 pub mod lc_0733; // Flood Fill
 pub mod lc_0739; // Daily Temperatures
@@ -51,4 +55,3 @@ pub mod lc_0876; // Middle of a Linked List
 pub mod lc_0973; // K Closest Points to Origin
 pub mod lc_0981; // Time Based Key-Value Store
 pub mod lc_1402; // Reducing Dishes
-pub mod structs;
