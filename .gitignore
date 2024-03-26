@@ -16,3 +16,6 @@ Cargo.lock
 # Bacon stuff
 bacon.toml
 .bacon-locations
+
+# Debugging
+__debug*
