@@ -41,6 +41,8 @@ pub mod lc_0242; // Valid Anagram
 pub mod lc_0278; // First Bad Version
 pub mod lc_0285; // Inorder Successor in BST
 pub mod lc_0347; // Top K Frequent Elements
+pub mod lc_0352; // Data Stream as Disjoint Intervals
+pub mod lc_0354; // Russian Doll Envelopes
 pub mod lc_0383; // Ransom Note
 pub mod lc_0409; // Longest Palindrome
 pub mod lc_0424; // Longest Repeating Character Replacement

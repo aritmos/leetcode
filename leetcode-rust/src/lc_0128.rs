@@ -16,11 +16,10 @@ impl Solution {
             match num - last_num {
                 0 => (),
                 1 => cur_count += 1,
-                2.. => {
+                _ => {
                     max_count = i32::max(max_count, cur_count);
                     cur_count = 1
                 }
-                _ => unreachable!(),
             }
             last_num = *num;
         }
